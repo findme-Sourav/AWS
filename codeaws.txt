@@ -1,0 +1,43 @@
+10.
+#!/bin/bash
+apt-get update
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+
+12.
+#!/bin/bash
+apt-get update
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y nodejs
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+git clone http://hithub.com/ repository
+cd myrepov1
+npm install
+mode index.js
+
+9.
+sudo apt-get update
+    sudo apt-get upgrade
+    sudo apt-get install nginx
+    curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash –
+    sudo apt install nodejs
+    git clone <Github repo link>
+    cd <Github repo name>
+    npm install
+    node index.js
+
+8
+git init
+        git add .
+        git status
+        git config --global user.email <user email address>
+        git config --global user.name <username>
+        git commit -m “<message>”
+        git push -u origin master
